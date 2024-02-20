@@ -1,3 +1,5 @@
+import "../styles/GeneralForm.css";
+
 function GeneralForm({ onNameChange, onNumberChange, onEmailChange }) {
   return (
     <form className="generalForm">
